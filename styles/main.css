@@ -1,0 +1,49 @@
+:root {
+    --main-black: #191919;
+    --main-white: #FFF;
+}
+
+html {
+    font-family: Inter, sans-serif;
+}
+
+.btn {
+    padding: 10px 24px;
+    text-decoration: none;
+    color: var(--main-black);
+    border-radius: 8px;
+}
+
+h1, h2, h3, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: var(--main-white);
+    background-color: var(--main-black);
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-white);
+    height: 73px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: var(--main-black);
+}
+
+/* Main */
+
+
